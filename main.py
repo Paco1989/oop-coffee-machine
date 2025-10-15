@@ -9,9 +9,13 @@ def coffeeMachine():
     mm = MoneyMachine()
 
     while True:
+        print("Welcome to the Coffee Machine!")
+        for item in m.menu:
+            print(f"{item.name}: ${item.cost:.2f}")
+
         option = input(f"What would you like? ({m.get_items()}): ")
 
-        if option == 'off':
+        if option == 'exit':
             return
         elif option == 'report':
             cm.report()
