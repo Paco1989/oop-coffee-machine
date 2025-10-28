@@ -1,0 +1,15 @@
+﻿# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+
+# Environments
+venv/
+
+# OS / OneDrive
+desktop.ini
+Thumbs.db
+~$*
